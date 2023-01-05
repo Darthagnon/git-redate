@@ -3,7 +3,7 @@
 
 Change the dates of several git commits with a single command.
 
-![alt tag](https://i.stack.imgur.com/yE4cQ.gif)
+![Demonstration of git redate](/yE4cQ.gif)
 
 # Installation
 
