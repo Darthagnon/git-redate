@@ -23,3 +23,19 @@ To be able to edit all the commits at once add the --all option: `git redate --a
 
 The `--commits` (a.k.a. `-c`) argument is optional, and defaults to 5 if not provided.
 
+## See also
+
+> You can do an interactive rebase and choose edit for the commit whose date you would like to alter. When the rebase process stops for amending the commit you type in for instance: 
+> `git commit --amend --date="Wed Feb 16 14:00 2011 +0100" --no-edit` 
+> P.S. `--date=now` will use the current time.
+> 
+> Afterward, you continue your interactive rebase.
+> 
+> To change the commit date instead of the author date:
+> `GIT_COMMITTER_DATE="Wed Feb 16 14:00 2011 +0100" git commit --amend --no-edit`
+> 
+> The lines above set an environment variable GIT_COMMITTER_DATE which is used in amending commit.
+> 
+> Everything is tested in Git Bash.
+
+- [How can one change the timestamp of an old commit in Git? on StackOverflow](https://stackoverflow.com/questions/454734/how-can-one-change-the-timestamp-of-an-old-commit-in-git)
